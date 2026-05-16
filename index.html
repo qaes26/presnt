@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قصة نجاح وهيمنة مايكروسوفت</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-grad"></div>
+<canvas id="stars"></canvas>
+<div class="progress" id="prog"></div>
+
+<!-- ══ TRANSITION: Airplane + Banner ══ -->
+<div id="transition">
+  <div class="cloud cloud-1"></div>
+  <div class="cloud cloud-2"></div>
+  <div class="cloud cloud-3"></div>
+  <div class="t-num" id="tNum"></div>
+  <div class="airplane-track">
+    <div class="airplane-group" id="planeGroup">
+      <div class="plane">✈️</div>
+      <div class="ribbon"></div>
+      <div class="banner">
+        <div class="banner-fabric">
+          <div class="banner-name" id="bName"></div>
+          <div class="banner-title" id="bTitle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="t-line"></div>
+</div>
+
+<!-- ══ SLIDES ══ -->
+<div class="presentation">
+  <div class="slide" id="s1">
+    <div class="prep">إعداد: <span>قيس الجازي</span></div><div class="snum">01 / 08</div>
+    <div class="hero fi">
+      <div class="ml"><div></div><div></div><div></div><div></div></div>
+      <h1 class="ht">قصة نجاح و<br><span class="gr">هيمنة مايكروسوفت</span></h1>
+      <p class="htg">من مرآب صغير في ألبوكيركي عام 1975، انطلق شابان بحلم واحد: <strong>"حاسوب على كل مكتب"</strong>. اليوم، مايكروسوفت إمبراطورية تقنية بقيمة <strong>3 تريليون دولار</strong> أعادت تشكيل طريقة عمل وتعلم وتواصل البشرية.</p>
+      <div class="sts">
+        <div><div class="stv">+1.4B</div><div class="stl">جهاز ويندوز</div></div>
+        <div><div class="stv">$3T+</div><div class="stl">القيمة السوقية</div></div>
+        <div><div class="stv">+190</div><div class="stl">دولة</div></div>
+        <div><div class="stv">+220K</div><div class="stl">موظف</div></div>
+      </div>
+      <p class="ss fi" style="margin-top:18px;font-size:.82rem">في هذا العرض نستكشف: أسباب الهيمنة، المقارنة مع آبل، وعقلية بيل غيتس التي صنعت المستحيل.</p>
+    </div>
+  </div>
+
+  <div class="slide" id="s2">
+    <div class="prep">إعداد: <span>رهف مصطفى</span></div><div class="snum">02 / 08</div>
+    <h2 class="st fi">لماذا تهيمن مايكروسوفت؟</h2>
+    <p class="ss fi">ثلاث ركائز استراتيجية بنت إمبراطورية تقنية لا تُقهر</p>
+    <div class="g c3 fi">
+      <div class="cd"><div class="ci b">💼</div><h3 class="ct">احتكار الإنتاجية المكتبية</h3>
+        <ul class="bl"><li><strong>Word، Excel، PowerPoint</strong> اللغة الموحدة لكل مكتب</li><li>اعتمدتها <strong>الحكومات والجامعات</strong> وFortune 500</li><li>أنشأت <strong>معيارًا صناعيًا</strong> عالميًا</li></ul></div>
+      <div class="cd"><div class="ci g">🔗</div><h3 class="ct">تأثير الشبكة</h3>
+        <ul class="bl"><li>الجميع يستخدم Windows — التبديل <strong>شبه مستحيل</strong></li><li>صيغ الملفات = <strong>المعيار الفعلي</strong> للتبادل</li><li>دورة ذاتية: مستخدمون ← مطورون ← برامج ← نمو</li></ul></div>
+      <div class="cd"><div class="ci y">☁️</div><h3 class="ct">التحول السحابي</h3>
+        <ul class="bl"><li>انتقلت إلى <strong>Azure</strong> بقيادة ساتيا ناديلا</li><li>اشتراكات تولّد <strong>إيرادات متكررة</strong></li><li>تبنّت <strong>المصدر المفتوح</strong> — GitHub وLinux</li></ul></div>
+    </div>
+  </div>
+
+  <div class="slide" id="s3">
+    <div class="prep">إعداد: <span>عهد الخليف</span></div><div class="snum">03 / 08</div>
+    <h2 class="st fi">مايكروسوفت ضد آبل</h2>
+    <p class="ss fi">عملاقان تقنيان، فلسفتان مختلفتان</p>
+    <table class="tb fi">
+      <thead><tr><th>البُعد</th><th class="ac">🍎 آبل</th><th class="mc">🪟 مايكروسوفت</th></tr></thead>
+      <tbody>
+        <tr><td>نموذج الأعمال</td><td>أجهزة فاخرة بهوامش ربح عالية</td><td>برمجيات وسحابة وتراخيص</td></tr>
+        <tr><td>نظام التشغيل</td><td>مغلق — تكامل محكم، تخصيص محدود</td><td>مفتوح — أجهزة متنوعة، تخصيص عالٍ</td></tr>
+        <tr><td>السوق</td><td>المستهلك الفاخر والمبدعون</td><td>المؤسسات والشركات أولاً</td></tr>
+        <tr><td>القوة</td><td>التصميم، الخصوصية، النظام البيئي</td><td>الإنتاجية، Azure، التوافقية، الألعاب</td></tr>
+        <tr><td>الساحات</td><td>iPhone، iPad، Mac</td><td>أنظمة التشغيل، السحابة، Teams، Xbox</td></tr>
+        <tr><td>الإيرادات</td><td>iPhone +50%، الخدمات</td><td>Azure، Office/Windows، الألعاب</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="slide" id="s4">
+    <div class="prep">إعداد: <span>عهد الخليف</span></div><div class="snum">04 / 08</div>
+    <h2 class="st fi">الخلاصة الجوهرية</h2>
+    <p class="ss fi">نموذج مايكروسوفت يتوسع أكثر</p>
+    <div class="g c2 fi">
+      <div class="cd"><div class="ci r">🍎</div><h3 class="ct">فلسفة آبل</h3>
+        <ul class="bl"><li><strong>"امتلك التجربة"</strong> — تتحكم بكل شيء</li><li>تسعير متميز يخلق <strong>حصرية</strong> وولاء</li><li>الحديقة المسورة تحد <strong>الانتشار</strong></li><li>إيرادات مرتبطة بـ<strong>دورات iPhone</strong></li></ul></div>
+      <div class="cd"><div class="ci b">🪟</div><h3 class="ct">فلسفة مايكروسوفت</h3>
+        <ul class="bl"><li><strong>"كن في كل مكان"</strong> — أي جهاز، أي منصة</li><li>عقود مؤسسية <strong>بمليارات</strong> الدولارات</li><li>نظام مفتوح = <strong>حصة سوقية ضخمة</strong></li><li>إيرادات متنوعة — <strong>لا اعتماد واحد</strong></li></ul></div>
+    </div>
+  </div>
+
+  <div class="slide" id="s5">
+    <div class="prep">إعداد: <span>بدر بني حسن</span></div><div class="snum">05 / 08</div>
+    <h2 class="st fi">كيف نجح بيل غيتس؟</h2>
+    <p class="ss fi">التفكير المنهجي → أكبر شركة برمجيات في العالم</p>
+    <div class="gts fi">
+      <div class="gp">🧑‍💻</div>
+      <div class="gc">
+        <div class="cd" style="margin-bottom:10px"><div class="ci p">🧠</div><h3 class="ct">عقلية المبرمج</h3>
+          <ul class="bl"><li>غيتس <strong>مبرمج</strong> يرى العالم بـ<strong>المنطق والأرقام</strong></li><li>النجاح = <strong>منهجية</strong> لا حظ</li><li>كل مشكلة <strong>معادلة تنتظر الحل</strong></li></ul></div>
+        <div class="pc"><div class="ph"><div class="pb">01</div><h3 class="ct">التفكير المنهجي</h3></div>
+          <ul class="bl"><li><strong>قرارات بالبيانات:</strong> صفر حظ أو عاطفة</li><li><strong>تحليل صارم:</strong> أرقام وإحصائيات فقط</li><li><strong>تفكيك المشكلات:</strong> أجزاء صغيرة قابلة للحل</li></ul></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide" id="s6">
+    <div class="prep">إعداد: <span>بدر بني حسن</span></div><div class="snum">06 / 08</div>
+    <h2 class="st fi">الصفقة التي غيّرت كل شيء</h2>
+    <p class="ss fi">صفقة IBM — الترخيص الاستراتيجي</p>
+    <div class="g c3 fi">
+      <div class="cd"><div class="ci r">🚫</div><h3 class="ct">رفض البيع</h3>
+        <ul class="bl"><li>IBM أرادت <strong>الشراء</strong> — غيتس قال <strong>لا</strong></li><li>البيع = <strong>فقدان السيطرة</strong></li><li>خطوة جريئة غير مسبوقة</li></ul></div>
+      <div class="cd"><div class="ci g">📜</div><h3 class="ct">رخّص لا تبِع</h3>
+        <ul class="bl"><li><strong>ترخيص لكل جهاز</strong> يُباع</li><li>كل PC = رسوم — <strong>توسع لا نهائي</strong></li><li>منتج واحد → <strong>محرك إيرادات دائم</strong></li></ul></div>
+      <div class="cd"><div class="ci b">🌍</div><h3 class="ct">رخّص للجميع</h3>
+        <ul class="bl"><li>رخّص لـ<strong>منافسي IBM</strong> أيضًا</li><li>أنشأ <strong>معيارًا عالميًا</strong></li><li>النتيجة: حصة <strong>+90%</strong> لعقود</li></ul></div>
+    </div>
+  </div>
+
+  <div class="slide" id="s7">
+    <div class="prep">إعداد: <span>قيس الجازي</span></div><div class="snum">07 / 08</div>
+    <div class="fi" style="text-align:center">
+      <div class="ml" style="margin-bottom:22px"><div></div><div></div><div></div><div></div></div>
+      <div class="cq">
+        نجاح بيل غيتس <span class="hl">لم يكن</span> ضربة حظ.<br>
+        بل كان نتاج <span class="hl">رؤية واضحة</span>،<br>
+        و<span class="hl">تفكير منهجي مبني على البيانات</span>،<br>
+        و<span class="hl">قرارات تجارية جريئة</span> غيّرت وجه التاريخ.
+      </div>
+      <p class="ss" style="margin-bottom:20px;font-size:.82rem">من صفقة ترخيص ذكية مع IBM إلى هيمنة عالمية بنسبة +90% — مايكروسوفت لم تُبنى بالصدفة، بل بالمنهجية والإصرار.</p>
+      <div class="cp">
+        <div class="cpl">🎯 رؤية واضحة</div><div class="cpl">📊 تفكير بالبيانات</div>
+        <div class="cpl">⚡ قرارات جريئة</div><div class="cpl">🔄 مرونة استراتيجية</div><div class="cpl">🌍 عقلية عالمية</div>
+      </div>
+      <p class="ss fi" style="margin-top:20px;font-size:.78rem;color:rgba(136,136,176,0.7)">شكراً لاستماعكم 🙏</p>
+    </div>
+  </div>
+
+  <!-- ══ 8: شكر الفريق ══ -->
+  <div class="slide" id="s8">
+    <div class="snum">08 / 08</div>
+    <div class="fi" style="text-align:center">
+      <!-- Animated SVG MS Logo -->
+      <svg class="ms-anim-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <rect class="ms-rect r1" x="5" y="5" width="40" height="40" rx="4" />
+        <rect class="ms-rect r2" x="55" y="5" width="40" height="40" rx="4" />
+        <rect class="ms-rect r3" x="5" y="55" width="40" height="40" rx="4" />
+        <rect class="ms-rect r4" x="55" y="55" width="40" height="40" rx="4" />
+      </svg>
+      <h2 class="st" style="margin-top:24px;margin-bottom:8px">شكراً لاستماعكم</h2>
+      <p class="ss" style="margin-bottom:28px">هذا العرض من إعداد فريق عمل متميز — نشكرهم على جهودهم</p>
+      <div class="team">
+        <div class="tmem">
+          <div class="ticon" style="background:rgba(242,80,34,0.15);color:#f25022">ق</div>
+          <div class="tname">قيس الجازي</div>
+          <div class="trole">المقدمة والخاتمة</div>
+        </div>
+        <div class="tmem">
+          <div class="ticon" style="background:rgba(127,186,0,0.15);color:#7fba00">ر</div>
+          <div class="tname">رهف مصطفى</div>
+          <div class="trole">أسباب الهيمنة</div>
+        </div>
+        <div class="tmem">
+          <div class="ticon" style="background:rgba(255,185,0,0.15);color:#ffb900">ع</div>
+          <div class="tname">عهد الخليف</div>
+          <div class="trole">مايكروسوفت ضد آبل</div>
+        </div>
+        <div class="tmem">
+          <div class="ticon" style="background:rgba(0,164,239,0.15);color:#00a4ef">ب</div>
+          <div class="tname">بدر بني حسن</div>
+          <div class="trole">بيل غيتس وصفقة IBM</div>
+        </div>
+      </div>
+      <p class="ss fi" style="margin-top:28px;font-size:.85rem;color:rgba(136,136,176,0.6);font-weight:700">جامعة إربد الأهلية | 2026</p>
+    </div>
+  </div>
+</div>
+
+<div class="dts" id="dts">
+  <div class="dt" data-i="0"></div><div class="dt" data-i="1"></div><div class="dt" data-i="2"></div><div class="dt" data-i="3"></div>
+  <div class="dt" data-i="4"></div><div class="dt" data-i="5"></div><div class="dt" data-i="6"></div><div class="dt" data-i="7"></div>
+</div>
+<div class="nav"><button class="nb" id="nx">→</button><button class="nb" id="pv">←</button></div>
+
+<script src="script.js"></script>
+</body>
+</html>
